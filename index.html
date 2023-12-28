@@ -1,0 +1,177 @@
+<!--Home Page-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2nd Avenue Dental - Home</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <!--Top Contact Information Header-->
+        <div class="contact-container">
+            <div class="contact-bar side-margin-align">
+                <div class="contact-item">
+                    <a href="https://maps.app.goo.gl/WS7VXS4ZyweKgui39"><img src="images/Location.png" alt="Location Marker Icon" width="17px" height="25px"></a>
+                    <a href="https://maps.app.goo.gl/WS7VXS4ZyweKgui39"><h6>Saskatoon, SK</h6></a>
+                </div>
+                <div class="phone-email-items">
+                    <div class="contact-item">
+                        <a href="tel:+1234567890"><img src="images/Phone.png" alt="Telephone Icon" width="27px" height="29px"></a>
+                        <a href="tel:+1234567890"><h6>Phone Number</h6></a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="mailto:2ndavedental@thissite.com"><img src="images/Email.png" alt="Mail Icon" width="25px" height="25px"></a>
+                        <a href="mailto:2ndavedental@thissite.com"><h6>Email</h6></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Navigation Header-->
+        <div class="nav-container">
+            <nav class="navbar side-margin-align">
+                <div class="logo"><a href="index.html">2nd Ave <b>Dental</b></a></div>
+                <ul class="nav-list">
+                    <li id="active-page"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <a href="apt-request.html"><button>Request Appointment</button></a>
+            </nav>
+        </div>
+
+        <!--Main Content-->
+
+        <!--Slideshow-->
+        <div class="page-section side-margin-align home-title-section">
+
+            <div class="slideshow">
+                <div class="slides-container">
+                    <div class="slide fade">
+                        <img src="images/Slide1.png" alt="female dentist high-fiving young girl" width="750px">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/Slide2.png" alt="two dentists treating patient in dentist chair" width="750px">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/Slide3.png" alt="cleaning room within dentist office" width="750px">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/Slide4.png" alt="close-up of female dentist" width="750px">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/Slide5.png" alt="dentist showing dental x-ray to patient laying in dentist chair" width="750px">
+                    </div>
+        
+                    <!--Next and Previous Slideshow Controls-->
+                    <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="moveSlides(1)">&#10095;</a>
+                </div>
+        
+                <!--Lower Dot Slide Controls-->
+                <div>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+
+            <div class="home-title-text">
+                <h1>Welcome to</h1>
+                <div class="logo-text slide-down"><h1>2nd Avenue <b>Dental</b></h1></div>
+                <h2>A better smile starts <b>here</b>.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi morbi tempus iaculis urna id volutpat. Tincidunt tortor aliquam nulla facilisi.</p>
+                <div class="req-text-button">
+                    <a href="contact.html"><button class="blue-button">Contact Our Office</button></a>
+                    <h4>Et leo duis ut diam quam nulla porttitor massa.</h4>
+                </div>
+            </div>
+        </div>
+
+        <!--Page Cards Section-->
+        <div class="page-section side-margin-align">
+            <div class="home-card">
+                <img src="images/Home-About.png" alt="close-up of a kid being treated in denstist chair" width="100%">
+                <div class="home-card-text">
+                    <h2>Meet Our Dentists</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="about.html"><button class="blue-button">About Us</button></a>
+                </div>
+            </div>
+
+            <div class="home-card">
+                <img src="images/Home-Services.png" alt="teeth models and a cup of toothbrushes on a table" width="100%">
+                <div class="home-card-text">
+                    <h2>Explore Our Services</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="services.html"><button class="blue-button">Our Services</button></a>
+                </div>
+            </div>
+
+            <div class="home-card">
+                <img src="images/Home-Contact.png" alt="young woman brushing her teeth in front of a mirror" width="100%">
+                <div class="home-card-text">
+                    <h2>Visit Our Office</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="contact.html"><button class="blue-button">Contact Us</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!--Button Banner Section-->
+        <div class="general-banner banner2 side-margin-align">
+            <div class="banner-content">
+                <h2>Patient Care Is Our #1 Priority</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <a href="apt-request.html"><button class="blue-button">Request Appointment</button></a>
+            </div>
+        </div>
+        
+        <!--Footer-->
+        <div class="nav-container">
+            <div class="footer side-margin-align">
+                <div class="footer-column">
+                    <div class="logo"><a href="index.html">2nd Ave <b>Dental</b></a></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc.</p>
+                </div>
+
+                <div class="footer-column middle-column">
+                    <h6>Quick Links</h6>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="apt-request.html">Request Appointment</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <div>
+                        <h6>Office Hours</h6>
+                        <ul>
+                            <li>Monday: 0:00am - 0:00pm</li>
+                            <li>Tues - Thurs: 0:00am - 0:00pm</li>
+                            <li>Friday: 0:00am - 0:00pm</li>
+                            <li>Saturday: 0:00am - 0:00pm</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/slideshow.js"></script>
+
+    </body>
+</html>
