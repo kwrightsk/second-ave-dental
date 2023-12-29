@@ -9,10 +9,10 @@ Locate the file `index.html` and open it with your system's web browser (e.g. Go
 
 ## Design Process
 ### Low-Fidelity: Wireframes
-![2nd Avenue Dental Wireframes](https://github.com/kwrightsk/second-ave-dental/assets/154839956/a18e9f04-e6fc-4dbc-a8c1-fd64c3a752da)
+![2nd Avenue Dental Wireframes](https://github.com/kwrightsk/second-ave-dental/assets/154839956/c8cda096-a31e-4f4e-82e6-2cb99bd51a88)
 
 ### High-Fidelity: Figma Mockups
 ![2nd Avenue Dental Figma Mockups](https://github.com/kwrightsk/second-ave-dental/assets/154839956/712929cc-9054-47d6-a89a-89ea0f6b50c4)
 
 ## Additional Information
-This game was created as a final project for the CMPT 281: Website Design and Development course at the University of Saskatchewan.
+This website was created as a final project for the CMPT 281: Website Design and Development course at the University of Saskatchewan.
