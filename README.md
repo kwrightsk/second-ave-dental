@@ -8,6 +8,8 @@ https://github.com/kwrightsk/second-ave-dental/assets/154839956/5f1619f5-e8a2-47
 Locate the file `index.html` and open it with your system's web browser (e.g. Google Chrome) to begin exploring the site.
 
 ## Design Process
+Below are some mock-ups of the website that were made during the design phase of the project. To view more of the design process, locate and open the file `Design Journal.pdf` which includes wireframes, website case studies, and high-fidelity mockups in full.
+
 ### Low-Fidelity: Wireframes
 ![2nd Avenue Dental Wireframes](https://github.com/kwrightsk/second-ave-dental/assets/154839956/c8cda096-a31e-4f4e-82e6-2cb99bd51a88)
 
